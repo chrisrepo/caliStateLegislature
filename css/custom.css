@@ -1,0 +1,194 @@
+/* 
+    Document   : custom
+    Created on : Mar 11, 2015, 9:31:29 PM
+    Author     : crepanich23
+    Description:
+        Purpose of the stylesheet follows.
+*/
+@font-face {
+    font-family: 'Satellite'; 
+    src: url('fonts/Satellite.otf'); 
+}
+
+@font-face {
+    font-family: 'Typo Grotesk Black'; 
+    src: url('fonts/Typo-Grotesk-Black-Demo.otf'); 
+}
+
+@font-face {
+    font-family: 'Courier'; 
+    src: url('fonts/COURIER.otf'); 
+}
+
+root { 
+   display: block;
+}
+
+body {
+  background-color:#C7C7CC;
+}
+.center.centerText{
+  text-align: center;
+}
+
+.tab-content.tabBackground {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.billTabContainer {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+.row {
+  width:100%;
+  margin: auto;
+}
+
+.tabIn{
+  padding-left: 20px;
+}
+
+.billHeaders{
+  font-weight: bold;
+  font-size:16px;
+}
+
+#minimizer{
+    cursor:pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px black solid;
+}
+
+.voteCount{
+  font-size: 14px;
+}
+
+.voteResults{
+  font-size: 13px;
+}
+
+.voteBackgroundOdd{
+  width:100%;
+  background-color: #55EFCB;
+  border-radius: 5px;
+}
+
+.voteBackgroundEven{
+  width:100%;
+  background-color: lightblue;
+  border-radius: 5px;
+}
+
+.padding5 {
+  padding: 5px 5px 5px 5px;
+}
+
+.individualBill{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.voteMembers{
+  font-size: 12px;
+  padding-right: 10px;
+}
+.voteContainer{
+  padding: 10px;
+}
+.yesVotes{
+  padding: 0px;
+}
+
+/* Set bootstrap tabs to centered rather than left*/
+.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+    zoom:1; /* hasLayout ie7 trigger */
+}
+
+#myTabs{
+  border:none
+}
+
+.nav-tabs, .nav-pills {
+    text-align:center;
+}
+
+.centerP {
+    margin: auto;
+    width: 96%;
+    padding: 10px;
+}
+
+.center{
+  text-align: center;
+}
+
+.billSearch{
+  border-radius: 5px;
+  background-color: #E4DDCA;
+}
+
+.padBottom{
+  padding-bottom: 10px;
+}
+
+
+#billKeyInput{
+  border-radius: 5px;
+  width: 60%;
+}
+
+#billIDInput{
+  border-radius: 5px;
+  width: 60%;
+}
+
+#senateNameInput{
+  border-radius: 5px;
+  width: 60%;
+}
+
+#asmNameInput{
+  border-radius: 5px;
+  width: 60%;
+}
+
+.topSpace{
+  padding-top: 10px;
+}
+
+.memberTable{
+  border: 1px solid black;
+  padding: 2px 7px 2px 7px;
+}
+
+.memberBox{
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.memberContainer{
+  background-color: #D1EEFC;
+  border-radius: 5px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.paddingContainer{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.warning{
+  color: firebrick;
+  font-weight: bold;
+}
